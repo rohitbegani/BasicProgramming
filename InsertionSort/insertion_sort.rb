@@ -1,4 +1,4 @@
-def InsertionSort(arr)
+def insertion_sort(arr)
 	for j in 1..arr.length - 1
 		key = arr[j]
 		i = j - 1
@@ -14,5 +14,5 @@ end
 unsortedArray = [5, 2, 4, 6, 1, 3]
 unsortedArray1 = [3, 7, 4, 9, 5, 2, 6, 1]
 
-InsertionSort(unsortedArray)
-InsertionSort(unsortedArray1)
+insertion_sort(unsortedArray)
+insertion_sort(unsortedArray1)
