@@ -1,4 +1,4 @@
-def InsertionSortRev(arr)
+def insertion-sort-rev(arr)
 	for i in 1..arr.length-1
 		key = arr[i]
 		j = i - 1
@@ -15,6 +15,6 @@ unsortedArray = [5, 2, 4, 6, 1, 3]
 unsortedArray1 = [3, 7, 4, 9, 5, 2, 6, 1]
 unsortedArray2 = [4, 1, 5, 7, 2, 3, 9]
 
-InsertionSortRev(unsortedArray)
-InsertionSortRev(unsortedArray1)
-InsertionSortRev(unsortedArray2)
+insertion-sort-rev(unsortedArray)
+insertion-sort-rev(unsortedArray1)
+insertion-sort-rev(unsortedArray2)
