@@ -17,6 +17,3 @@ unique_string("wqead Apo")
 unique_string("wqead po")
 unique_string("___a___")
 unique_string("The quick brown fox jumps over the lazy dog")
-
-## The above algorithm has a time complexity of O(n) because it parses through 26 characters (constant) so no effect and n which is 
-## equal to the length of the string.
